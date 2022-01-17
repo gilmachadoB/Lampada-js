@@ -1,0 +1,31 @@
+body {
+    background-color: #cdb4db;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #ffafcc 1px solid;
+    border-radius: 1rem;
+    width: 40%;
+    left: 30%;
+    position: relative;
+    margin-top: 70px;
+    background-color: white;
+}
+
+button {
+    font-weight: 600;
+    width: 90px;
+    height: 40px;
+    color: #ffafcc;
+    border-radius: 1rem;
+    border: none; 
+    margin: 10px;
+    background-color: #cdb4db;
+    color: #4a4e69;
+}
+button:hover{
+    transform: scale(1.2);
+}
